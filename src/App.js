@@ -38,11 +38,11 @@ class App extends React.Component {
         return <div>Loading...</div>; 
       }  else {
         return (
-          <div>
+          <div className="App">
 
             <HomePage />
             <SearchBar name={filmData.Title} run_time={filmData.Runtime} release_year={filmData.Released}/>
-
+            <div>/learn react/i</div>
           </div>
         )
       }
